@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/* Colores Principales */
+/* Body */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* Fin Body*/
+/* Servicios */
+/* Colores Principales */
+/* Colores Principales*/
+/* Títulos */
+.div-servicios {
+  display: flex;
+  justify-content: center;
+}
+.div-servicios ul {
+  border-radius: 50px;
+  border: 20px double;
+  border-color: #fff;
+  background-color: #09bfc0;
+  margin-top: 100px;
+  max-width: 2000px;
+  padding: 20px;
+  margin: 20px;
+}
+.div-servicios ul li {
+  font-size: 28px;
+  font-family: "Lemon", cursive;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+  max-width: 1100px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .servicios {
+    border-radius: 50px;
+    border: 13px double;
+    border-color: #fff;
+    background-color: #09bfc0;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .texto-servicios {
+    font-size: 20px;
+    font-family: "Fredericka the Great", cursive;
+    text-align: left;
+    margin-left: 28px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .servicios {
+    border-radius: 50px;
+    border: 13px double;
+    border-color: #fff;
+    background-color: #09bfc0;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .texto-servicios {
+    font-size: 10px;
+    font-family: "Fredericka the Great", cursive;
+    text-align: left;
+    margin-left: 0px;
+  }
+}
+/* Fin de Servicios */
+/* Tecnología */
+.section-certificaciones, .nosotros, .container-grid-clientes, .container-tecnologia {
+  margin: 30px;
+}
+
+.container-tecnologia div {
+  margin-top: 50px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+/* Fin de Tecnología */
+/* Clientes */
+.section-certificaciones, .nosotros, .container-grid-clientes, .container-tecnologia {
+  margin: 30px;
+}
+
+.container-grid-clientes {
+  width: 90%;
+  height: 500px;
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 0.3fr);
+  column-gap: 100px;
+  gap: 100px;
+}
+
+.elemento1 {
+  grid-column: 2/4;
+  grid-row: 1;
+  text-align: center;
+}
+
+.elemento2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.elemento2 img {
+  width: 150px;
+}
+
+.elemento3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.elemento3 img {
+  width: 250px;
+}
+
+.elemento4 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.elemento4 img {
+  width: 150px;
+}
+
+.elemento5 {
+  grid-column: 4;
+  grid-row: 2;
+}
+.elemento5 img {
+  width: 250px;
+}
+
+@media screen and (max-width: 480px) {
+  .container-grid-clientes {
+    width: 90%;
+    height: 500px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 0.3fr);
+    column-gap: 100px;
+    gap: 10px;
+  }
+
+  .elemento1 {
+    grid-column: 2/4;
+    grid-row: 1;
+  }
+
+  .elemento2 {
+    /*background-image: url("../src/multimedia/img/nestle.png");*/
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+
+  .elemento3 {
+    grid-column: 3/5;
+    grid-row: 2;
+  }
+
+  .elemento4 {
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+
+  .elemento5 {
+    grid-column: 3/5;
+    grid-row: 3;
+  }
+
+  .img-elemento2 {
+    width: 110px;
+  }
+
+  .img-elemento3 {
+    width: 200px;
+  }
+
+  .img-elemento4 {
+    width: 120px;
+  }
+
+  .img-elemento5 {
+    width: 225px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .container-grid-clientes {
+    width: 90%;
+    height: 500px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 0.3fr);
+    column-gap: 100px;
+    gap: 10px;
+  }
+
+  .elemento1 {
+    grid-column: 2/4;
+    grid-row: 1;
+  }
+
+  .elemento2 {
+    /*background-image: url("../src/multimedia/img/nestle.png");*/
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+
+  .elemento3 {
+    grid-column: 3/5;
+    grid-row: 2;
+  }
+
+  .elemento4 {
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+
+  .elemento5 {
+    grid-column: 3/5;
+    grid-row: 3;
+  }
+
+  .img-elemento2 {
+    width: 110px;
+  }
+
+  .img-elemento3 {
+    width: 200px;
+  }
+
+  .img-elemento4 {
+    width: 120px;
+  }
+
+  .img-elemento5 {
+    width: 225px;
+  }
+}
+/* Fin de Clientes */
+/* Colores Principales */
+/* Letras */
+/* Colores Principales*/
+/* Títulos */
+h2, h3, h4, h5, h6, header nav ul li a {
+  color: #d8cb15;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Lemon", cursive;
+}
+
+/* Fin de Letras */
+/* Nosotros */
+/* Colores Principales*/
+/* Títulos */
+.section-certificaciones, .nosotros, .container-tecnologia, .container-grid-clientes {
+  margin: 30px;
+}
+
+.nosotros {
+  background-image: url("../src/multimedia/img/nosotros.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+  padding-top: 300px;
+  border-radius: 100px;
+  border: 10px;
+  border-color: #fff;
+}
+
+/* Fin de Nosotros */
+/* Footer */
+/* Colores Principales*/
+/* Títulos */
+footer {
+  width: 100%;
+  margin: auto;
+  background: #202020;
+  color: #fff;
+  padding: 2% 15%;
+}
+
+.contenido-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna-1 {
+  max-width: 400px;
+}
+
+.columna-1 h6 {
+  font-size: 22px;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img {
+  width: 35px;
+  height: 35px;
+}
+
+.row span {
+  margin-top: 1px;
+  margin-left: 20px;
+}
+
+.row a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.columna-2 {
+  max-width: 400px;
+}
+
+.columna-2 h6 {
+  font-size: 22px;
+}
+
+.row-2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row-2 span a {
+  margin-left: 20px;
+  max-width: 200px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Fredericka the Great", cursive;
+}
+
+/* Fin de Footer */
+/* Certiicaciones */
+.section-certificaciones, .container-tecnologia, .container-grid-clientes, .nosotros {
+  margin: 30px;
+}
+
+.flex-certificiaciones {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+/* Fin de Certiicaciones */
+/* Contacto */
+/* Colores Principales*/
+/* Títulos */
+.body-rrhh {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "montserrat", sans-serif;
+}
+
+.form {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form-container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+  padding: 200px;
+  border-radius: 2px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: 0.4em;
+}
+
+.form-input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 3px solid #777121;
+  border-radius: 0.2em;
+}
+
+.form-input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+
+.form-cta {
+  font-family: inherit;
+  background-color: #ffed00;
+  color: #000;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.form-file {
+  color: #fff;
+}
+
+/* Fin de Contacto */
+/* Login */
+.form-login {
+  width: 400px;
+  height: 340px;
+  background-color: rgba(0, 0, 0, 0.322);
+  margin: auto;
+  margin-bottom: 200px;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px #ffed00;
+  padding: 20px 30px;
+  border-top: 4px solid #777121;
+  color: white;
+}
+
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.controls {
+  width: 100%;
+  border: 1px solid #ffed00;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background-color: #252323;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 100%;
+  height: 40px;
+  background: #d4c819;
+  border: none;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.form-login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.form-login a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
+
+/* Fin de Login */
+/* Colores Principales*/
+/* Títulos */
+.container-tecnologia, .container-grid-clientes, .nosotros, .section-certificaciones {
+  margin: 30px;
+}
+
+header div ul li a {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

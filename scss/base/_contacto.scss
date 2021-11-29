@@ -1,0 +1,66 @@
+/* Contacto */
+@import '../components/listas';
+
+.body-rrhh{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'montserrat', sans-serif;
+}
+
+.form{
+    background-color: nth($colores,1);
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+    padding: 200px;
+    border-radius: 2px;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 0.4em;
+}
+
+.form-input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.8em 1em;
+    outline: none;
+    border: none;
+    border: 3px solid #777121;
+    border-radius: 0.2em;
+}
+
+.form-input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: 0.5em;
+}
+
+.form-cta{
+    font-family: inherit;
+    background-color: nth($colores,4);
+    color: #000;
+    border: none;
+    font-weight: 300;
+    padding: 0.7em 0;
+    border-radius: 0.2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.form-file{
+    color: nth($colores,1);
+}
+
+/* Fin de Contacto */

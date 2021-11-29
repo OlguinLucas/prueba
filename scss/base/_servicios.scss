@@ -1,0 +1,72 @@
+/* Servicios */
+
+@import '../components/variables';
+@import '../components/listas';
+@import '../components/mixins';
+
+
+
+
+.div-servicios{
+    display: flex;
+    justify-content: center;
+    ul{
+        border-radius: 50px;
+        border: 20px double;
+        border-color: $color-fondo;
+        background-color: $color-secundario;
+        margin-top: 100px;
+        max-width: 2000px;
+        @include varios-parametros(20px, 20px);
+        li{
+            font-size: 28px;
+            font-family: 'Lemon', cursive;
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 100px;
+            max-width: 1100px;
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+    .servicios{
+        border-radius: 50px;
+        border: 13px double;
+        border-color: nth($colores,1);
+        background-color: nth($colores,3);
+        padding: 0px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .texto-servicios{
+        font-size: 20px;
+        font-family: 'Fredericka the Great', cursive;
+        text-align: left;
+        margin-left: 28px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .servicios{
+    border-radius: 50px;
+    border: 13px double;
+    border-color: nth($colores,1);
+    background-color: nth($colores,3);
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    }
+    .texto-servicios{
+        font-size: 10px;
+        font-family: 'Fredericka the Great', cursive;
+        text-align: left;
+        margin-left: 0px;
+    }
+}
+
+/* Fin de Servicios */

@@ -1,0 +1,69 @@
+/* Footer */
+@import '../components/listas';
+
+footer{
+    width: 100%;
+    margin: auto;
+    background: #202020;
+    color: nth($colores,1);
+    padding: 2% 15%;
+}
+
+.contenido-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-1 {
+    max-width: 400px;
+}
+
+.columna-1 h6{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 35px;
+    height: 35px;
+}
+
+.row span{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+.row a{
+    text-decoration: none;
+    color: nth($colores,1);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.columna-2 {
+    max-width: 400px;
+}
+
+.columna-2 h6{
+    font-size: 22px;
+}
+
+.row-2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row-2 span a{
+    margin-left: 20px;
+    max-width: 200px;
+    text-decoration: none;
+    color: nth($colores,1);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+
+/* Fin de Footer */

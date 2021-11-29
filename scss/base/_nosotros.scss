@@ -1,0 +1,20 @@
+/* Nosotros */
+@import '../components/listas';
+@import '../components/extends';
+
+.nosotros{
+    background-image: url('../src/multimedia/img/nosotros.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    
+    border-radius: 100px;
+    border: 10px ;
+    border-color: nth($colores,1);
+    @extend %margin;
+}
+
+
+/* Fin de Nosotros */

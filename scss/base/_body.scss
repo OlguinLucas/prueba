@@ -1,0 +1,19 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+/* Body */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    @include varios-parametros(0px, 0px);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: $color-fondo;
+}
+
+/* Fin Body*/
+

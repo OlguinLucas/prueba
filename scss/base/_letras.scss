@@ -1,0 +1,14 @@
+/* Letras */
+@import '../components/listas';
+
+h2, h3, h4, h5, h6, header nav ul li a{
+    color:nth($colores,6);
+    font-size: 35px; 
+    }
+
+p {
+        font-family: 'Lemon', cursive;
+        
+    }
+    
+/* Fin de Letras */

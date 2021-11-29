@@ -1,0 +1,13 @@
+/* Tecnología */
+@import '../components/extends';
+
+.container-tecnologia{
+    @extend %margin;
+    div{
+        margin-top: 50px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+}
+
+/* Fin de Tecnología */

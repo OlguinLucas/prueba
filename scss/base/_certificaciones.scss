@@ -1,0 +1,15 @@
+/* Certiicaciones */
+@import '../components/extends';
+
+
+.section-certificaciones{
+    @extend %margin;
+}
+
+.flex-certificiaciones{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+/* Fin de Certiicaciones */
